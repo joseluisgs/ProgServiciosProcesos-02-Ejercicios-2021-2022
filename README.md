@@ -12,7 +12,7 @@ Para subir tu ejercicio a GitHub, **POR FAVOR SIGUE ESTAS NORMAS**:
 - Hazte un fork de este repositorio
 - Trabaja con GitFlow
 - Crea una reama feature con tu Iniciales y apellido y el nombre del problema realizado por el profesor, por ejemplo: /feature/JLGonzalez/cajas-executor
-- Crea un directorio dentro del directorio del problema del repositorio con tu Iniciales y Apellido, por ejemplo soluciones/cajetas-executor/JLGonzalez. 
+- Crea un directorio dentro del directorio del problema del repositorio con tu Iniciales y Apellido, por ejemplo cajas-executor/JLGonzalez. 
 - Copia tu proyecto de IntellIJ creado y gestionado con Maven a tu directorio creado. Debes tener en cuenta que el gitignore de ese proyecto debe evitar subir el directorio /out y /target de Intellij.
 - Cierra la Feature siguiendo el flujo de GitFlow, fusionando los cambios a Develop, pero no borres esa rama por si la vuelves a necesitar.
 - Confirma los cambios y sube los cambios a tu repositorio GitHub.
