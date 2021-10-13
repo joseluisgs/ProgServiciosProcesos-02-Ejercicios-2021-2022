@@ -10,14 +10,10 @@ public class Secuencial {
         System.out.println("-----------------------INICIA PROGRAMA DE FORMA SECUENCIAL----------------------------");
         long init = System.currentTimeMillis();  // Instante inicial del procesamiento
 
-        //Lista clientes
-        ArrayList<Cliente> clientes = new ArrayList<>(numeroClientes);
-        for (int i = 0; i < numeroClientes; i++) {
-            clientes.add(new Cliente(i + 1));
-        }
+        ColaClientes clientes = new ColaClientes(numeroClientes);
 
-        for (Cliente cliente : clientes) {
-            Runnable cajera = new Cajera(cliente, init);
+        for (int i = 0; i < numeroClientes; i++) {
+            Runnable cajera = new Cajera(clientes.getColaClientes().pop(), init);
             cajera.run();       //Se ejecuta el método run y se quita el executor Al ser secuencial solo se necestia un hilo
         }
 
