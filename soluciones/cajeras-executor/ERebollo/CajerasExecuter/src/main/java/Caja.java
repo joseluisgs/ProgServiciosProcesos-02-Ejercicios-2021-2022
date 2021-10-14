@@ -13,10 +13,10 @@ public class Caja extends Thread {
     }
 
     private void clientCheck(Cliente client){
-        for(int i=0;i<client.getCart().length;i++){
+        for(int i=0;i<client.getCart().size();i++){
             try {
                 System.out.println("caja "+this.officeNumber+" con el producto "+i+" del cliente "+client.getClientNumber());
-                Thread.sleep(client.getCart()[i].getWaitTime() * 1000L);
+                Thread.sleep(client.getCart().get(i).getWaitTime() * 1000L);
             } catch (InterruptedException ex) {
                 Thread.currentThread().interrupt();
             }

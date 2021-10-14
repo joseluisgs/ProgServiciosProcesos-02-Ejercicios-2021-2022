@@ -7,30 +7,33 @@ import java.util.concurrent.Executors;
 @Data
 public class Main {
 
-    private ArrayDeque<Cliente> queue =  new ArrayDeque<Cliente>();
+    private static ArrayDeque<Cliente> queue =  new ArrayDeque<Cliente>();
 
-    private void startUp(){
-        addClients();
-        ExecutorService service = Executors.newFixedThreadPool(2);
+    private static void startUp(int numeroClientes, int hilos){
+        addClients(numeroClientes);
+        ExecutorService service = Executors.newFixedThreadPool(hilos);
         int numero=1;
 
         while(!queue.isEmpty()){
-            Caja c1 = new Caja(queue.getFirst(),numero);
+            Caja c = new Caja(queue.getFirst(),numero);
+            service.execute(c);
             queue.removeFirst();
             numero+=1;
         }
+
+        service.shutdown();
+    }
+
+    private static void addClients(int numeroClientes){
+       for(int i=0;i<numeroClientes;i++){
+           queue.add(new Cliente(i));
+       }
     }
 
     public static void main(String[] args) {
-        Main m= new Main();
-        m.startUp();
-    }
+        final int HILOS = Integer.parseInt(args[0]);
+        final int CLIENTES = Integer.parseInt(args[1]);
 
-    private void addClients(){
-       queue.add(new Cliente());
-       queue.add(new Cliente());
-       queue.add(new Cliente());
-       queue.add(new Cliente());
-       queue.add(new Cliente());
+        startUp(CLIENTES, HILOS);
     }
 }
