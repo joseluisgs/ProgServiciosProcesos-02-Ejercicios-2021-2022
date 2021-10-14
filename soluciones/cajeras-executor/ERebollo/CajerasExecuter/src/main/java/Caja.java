@@ -1,13 +1,12 @@
 import lombok.AllArgsConstructor;
 
-import java.util.LinkedList;
-
 @AllArgsConstructor
 public class Caja extends Thread {
 
+    private Cliente client;
     private int officeNumber;
 
-    public void run(Cliente client) {
+    public void run() {
         System.out.println("La caja "+this.officeNumber+" abre sus puertas");
         clientCheck(client);
         System.out.println("La caja "+this.officeNumber+" cierra sus puertas");
