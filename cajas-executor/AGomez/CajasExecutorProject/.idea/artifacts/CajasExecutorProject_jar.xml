@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="CajasExecutorProject:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CajasExecutorProject_jar</output-path>
+    <root id="archive" name="CajasExecutorProject.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/generated-sources/annotations/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="CajasExecutorProject" />
+    </root>
+  </artifact>
+</component>
