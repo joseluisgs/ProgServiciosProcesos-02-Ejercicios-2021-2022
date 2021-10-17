@@ -38,7 +38,7 @@ Pista: Debéis tener Caja ,Clientes que es una Cola, El Cliente, El Cliente tien
 
 Entrega 14/10/2021
 
-### Procesando datos con asíncronía.
+### Procesando RSS con asíncronía.
 Vamos a realizar un Parser XML asíncrono, usando a librería que prefieras.
 Lanzaremos tres trabajos asíncronos de manera asíncrona leyendo estos RSS del El País:
 - Últimas Noticias: http://ep00.epimg.net/rss/tags/ultimas_noticias.xml
