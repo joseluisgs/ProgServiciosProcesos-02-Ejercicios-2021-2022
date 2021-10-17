@@ -38,6 +38,17 @@ Pista: Debéis tener Caja ,Clientes que es una Cola, El Cliente, El Cliente tien
 
 Entrega 14/10/2021
 
+### Procesando datos con asíncronía.
+Vamos a realizar un Parser XML asíncrono, usando a librería que prefieras.
+Lanzaremos tres trabajos asíncronos de manera asíncrona leyendo estos RSS del El País:
+- Últimas Noticias: http://ep00.epimg.net/rss/tags/ultimas_noticias.xml
+- Tecnología: https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/tecnologia/portada
+- Ciencia: https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/ciencia/portada
+
+Una vez terminen los tres, irás mostrando su resultado por pantalla. Es importante que midas el tiempo que tarda cada uno, y el tiempo total de la aplicación, ¿Con cuál casa o se corresponde? ¿Y si lo comparas con su ejecución secuencial?
+
+Entrega 21/10/2021
+
 
 ## Autor
 
