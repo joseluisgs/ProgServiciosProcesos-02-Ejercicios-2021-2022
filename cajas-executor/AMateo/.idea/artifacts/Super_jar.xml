@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Super:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Super_jar</output-path>
+    <root id="archive" name="Super.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="Super" />
+      <element id="extracted-dir" path="$USER_HOME$/.m2/repository/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
