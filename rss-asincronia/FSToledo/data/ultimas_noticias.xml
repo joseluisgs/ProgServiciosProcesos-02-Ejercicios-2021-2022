@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+  <title><![CDATA[Últimas noticias | EL PAÍS]]></title>
+  <link><![CDATA[https://elpais.com/rss/tags/ultimas_noticias.xml]]></link>
+  <description><![CDATA[Últimas noticias | EL PAÍS]]></description>
+  <lastBuildDate>Wed, 20 Oct 2021 22:02:16 +0200</lastBuildDate>
+  <pubDate>Wed, 20 Oct 2021 22:02:16 +0200</pubDate>
+  <language>es</language>
+  <copyright><![CDATA[Copyright 2021, Ediciones EL PAÍS]]></copyright>
+  <ttl>5</ttl>
+  <image>
+      <url>https://ep00.epimg.net/iconos/v1.x/v1.0/logos/cabecera_portada.png</url>
+      <title>Logotipo de EL PAÍS</title>
+      <link>https://elpais.com/</link>
+  </image>
+  <item>
+    <title><![CDATA[‘Tiempo de asfixia’]]></title>
+    <link><![CDATA[https://elpais.com/elpais/2021/10/17/album/1634485239_734562.html#?ref=rss&format=simple&link=link]]></link>
+    <guid isPermaLink="true"><![CDATA[https://elpais.com/elpais/2021/10/17/album/1634485239_734562.html#?ref=rss&format=simple&link=guid]]></guid>
+    <dc:creator><![CDATA[José Antonio Ballesteros]]></dc:creator>
+    <description><![CDATA[José Antonio Ballesteros es el autor de las fotografías publicadas esta semana en la sección de Opinión]]></description>
+    <pubDate><![CDATA[Wed, 20 Oct 2021 13:58:31 +0200]]></pubDate>
+    <category><![CDATA[Opinión]]></category>
+    <category><![CDATA[Fotografía]]></category>
+    <category><![CDATA[Artes plásticas]]></category>
+    <category><![CDATA[Arte]]></category>
+    <enclosure url="https://ep00.epimg.net/elpais/imagenes/2021/10/17/album/1634485239_734562_1634485571_miniatura_normal.jpg" length="15912" type="image/jpeg"/>
+    <enclosure url="https://ep00.epimg.net/elpais/imagenes/2021/10/17/album/1634485239_734562_1634485571_noticia_normal.jpg" length="56305" type="image/jpeg"/>
+    <comments><![CDATA[http://eskup.elpais.com/C1634485676-88b78f4b94782cdb243cc4f0fcc7d05d]]></comments>
+  </item>
+  <item>
+    <title><![CDATA[El 'oasis vasco', entre el olvido y la memoria compartida]]></title>
+    <link><![CDATA[https://elpais.com/elpais/2021/10/19/album/1634662172_005143.html#?ref=rss&format=simple&link=link]]></link>
+    <guid isPermaLink="true"><![CDATA[https://elpais.com/elpais/2021/10/19/album/1634662172_005143.html#?ref=rss&format=simple&link=guid]]></guid>
+    <dc:creator><![CDATA[Álvaro García, Luis R. Aizpeolea]]></dc:creator>
+    <description><![CDATA[Diez años después del fin de ETA, se respira normalidad en las calles y la política de Euskadi en comparación con Irlanda del Norte y Colombia que, casi al mismo tiempo, abordaron procesos similares]]></description>
+    <pubDate><![CDATA[Wed, 20 Oct 2021 07:55:32 +0200]]></pubDate>
+    <category><![CDATA[San Sebastián]]></category>
+    <category><![CDATA[Vitoria]]></category>
+    <category><![CDATA[Hernani]]></category>
+    <category><![CDATA[El final de ETA]]></category>
+    <category><![CDATA[Bilbao]]></category>
+    <category><![CDATA[Gipuzkoa]]></category>
+    <category><![CDATA[Bizkaia]]></category>
+    <category><![CDATA[Álava]]></category>
+    <category><![CDATA[País Vasco]]></category>
+    <category><![CDATA[ETA]]></category>
+    <category><![CDATA[Grupos terroristas]]></category>
+    <category><![CDATA[Terrorismo]]></category>
+    <category><![CDATA[España]]></category>
+    <category><![CDATA[Sociedad]]></category>
+    <enclosure url="https://ep00.epimg.net/elpais/imagenes/2021/10/19/album/1634662172_005143_1634663579_miniatura_normal.jpg" length="22849" type="image/jpeg"/>
+    <enclosure url="https://ep00.epimg.net/elpais/imagenes/2021/10/19/album/1634662172_005143_1634663579_noticia_normal.jpg" length="245214" type="image/jpeg"/>
+    <comments><![CDATA[http://eskup.elpais.com/C1634662171-b91a66458179edc8e692f498ac5494c5]]></comments>
+  </item>
+  <item>
+    <title><![CDATA[Dos urólogos para cinco millones de habitantes]]></title>
+    <link><![CDATA[https://elpais.com/elpais/2021/10/05/album/1633452893_136699.html#?ref=rss&format=simple&link=link]]></link>
+    <guid isPermaLink="true"><![CDATA[https://elpais.com/elpais/2021/10/05/album/1633452893_136699.html#?ref=rss&format=simple&link=guid]]></guid>
+    <dc:creator><![CDATA[Fermín Torrano]]></dc:creator>
+    <description><![CDATA[La organización española Surg For All realizar una misión urológica en Liberia, un país en el que dos especialistas, sin medios y escasa formación, tienen que hacer frente a las principales patologías de los hombres en la edad adulta]]></description>
+    <pubDate><![CDATA[Wed, 20 Oct 2021 08:47:08 +0200]]></pubDate>
+    <category><![CDATA[Urología]]></category>
+    <category><![CDATA[Miguel Pajares Martín]]></category>
+    <category><![CDATA[Desarrollo África]]></category>
+    <category><![CDATA[Liberia]]></category>
+    <category><![CDATA[Misioneros]]></category>
+    <category><![CDATA[Agenda Post-2015]]></category>
+    <category><![CDATA[África meridional]]></category>
+    <category><![CDATA[Desarrollo humano]]></category>
+    <category><![CDATA[Indicadores económicos]]></category>
+    <category><![CDATA[Indicadores sociales]]></category>
+    <category><![CDATA[África subsahariana]]></category>
+    <category><![CDATA[Pobreza]]></category>
+    <category><![CDATA[África]]></category>
+    <category><![CDATA[Bienestar social]]></category>
+    <category><![CDATA[ONU]]></category>
+    <category><![CDATA[Especialidades médicas]]></category>
+    <category><![CDATA[Cristianismo]]></category>
+    <category><![CDATA[Medicina]]></category>
+    <category><![CDATA[Religión]]></category>
+    <category><![CDATA[Problemas sociales]]></category>
+    <category><![CDATA[Economía]]></category>
+    <category><![CDATA[Salud]]></category>
+    <category><![CDATA[Sociedad]]></category>
+    <category><![CDATA[Medio ambiente]]></category>
+    <enclosure url="https://ep00.epimg.net/elpais/imagenes/2021/10/05/album/1633452893_136699_1634652528_miniatura_normal.jpg" length="18982" type="image/jpeg"/>
+    <enclosure url="https://ep00.epimg.net/elpais/imagenes/2021/10/05/album/1633452893_136699_1634652528_noticia_normal.jpg" length="197821" type="image/jpeg"/>
+    <comments><![CDATA[http://eskup.elpais.com/C1634664461-a0794874b82021e6a686cfcdf982270e]]></comments>
+  </item>
+  <item>
+    <title><![CDATA[El segundo aniversario del estallido social en Chile, en imágenes]]></title>
+    <link><![CDATA[https://elpais.com/elpais/2021/10/19/album/1634609528_608740.html#?ref=rss&format=simple&link=link]]></link>
+    <guid isPermaLink="true"><![CDATA[https://elpais.com/elpais/2021/10/19/album/1634609528_608740.html#?ref=rss&format=simple&link=guid]]></guid>
+    <dc:creator><![CDATA[El País]]></dc:creator>
+    <description><![CDATA[Protestas, saqueos, ataques incendiarios se registran en diversas ciudades del país sudamericano]]></description>
+    <pubDate><![CDATA[Tue, 19 Oct 2021 11:18:09 +0200]]></pubDate>
+    <category><![CDATA[Chile]]></category>
+    <category><![CDATA[Protestas sociales]]></category>
+    <category><![CDATA[Malestar social]]></category>
+    <category><![CDATA[Sudamérica]]></category>
+    <category><![CDATA[Latinoamérica]]></category>
+    <category><![CDATA[América]]></category>
+    <category><![CDATA[Problemas sociales]]></category>
+    <category><![CDATA[Sociedad]]></category>
+    <enclosure url="https://ep00.epimg.net/elpais/imagenes/2021/10/19/album/1634609528_608740_1634609918_miniatura_normal.jpg" length="18823" type="image/jpeg"/>
+    <enclosure url="https://ep00.epimg.net/elpais/imagenes/2021/10/19/album/1634609528_608740_1634609917_noticia_normal.jpg" length="64392" type="image/jpeg"/>
+    <enclosure url="https://ep00.epimg.net/elpais/imagenes/2021/10/19/album/1634609528_608740_1634609918_noticia_grande.jpg" length="64392" type="image/jpeg"/>
+    <comments><![CDATA[http://eskup.elpais.com/C1634611803-064a9b5d70eabc8c34d77f87bdb86670]]></comments>
+  </item>
+  <item>
+    <title><![CDATA[El volcán de La Palma, un mes de erupción en imágenes]]></title>
+    <link><![CDATA[https://elpais.com/elpais/2021/10/18/album/1634577412_081837.html#?ref=rss&format=simple&link=link]]></link>
+    <guid isPermaLink="true"><![CDATA[https://elpais.com/elpais/2021/10/18/album/1634577412_081837.html#?ref=rss&format=simple&link=guid]]></guid>
+    <dc:creator><![CDATA[]]></dc:creator>
+    <description><![CDATA[Se cumple un mes desde que la lava del volcán de Cumbre Vieja comenzase a fluir por la isla canaria, cambiando su geografía, arrasando poblaciones y obligando a miles de personas a desplazarse a zonas más seguras]]></description>
+    <pubDate><![CDATA[Tue, 19 Oct 2021 10:16:55 +0200]]></pubDate>
+    <category><![CDATA[Erupción La Palma]]></category>
+    <category><![CDATA[La Palma]]></category>
+    <category><![CDATA[Erupciones volcanes]]></category>
+    <category><![CDATA[Volcanes]]></category>
+    <category><![CDATA[Canarias]]></category>
+    <category><![CDATA[Espacios naturales]]></category>
+    <category><![CDATA[Desastres naturales]]></category>
+    <category><![CDATA[Desastres]]></category>
+    <category><![CDATA[Sucesos]]></category>
+    <category><![CDATA[España]]></category>
+    <category><![CDATA[Medio ambiente]]></category>
+    <enclosure url="https://ep00.epimg.net/elpais/imagenes/2021/10/18/album/1634577412_081837_1634577948_miniatura_normal.jpg" length="13993" type="image/jpeg"/>
+    <enclosure url="https://ep00.epimg.net/elpais/imagenes/2021/10/18/album/1634577412_081837_1634585556_noticia_normal.gif" length="3841882" type="image/gif"/>
+    <comments><![CDATA[http://eskup.elpais.com/C1634577412-553d811c35f5bf568d30c6dccfdd709c]]></comments>
+  </item>
+</channel>
+</rss>
