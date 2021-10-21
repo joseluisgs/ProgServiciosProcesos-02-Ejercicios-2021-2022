@@ -28,7 +28,6 @@ public class Main {
 
 	public static void concurrentRSS () {
 		ThreadPoolExecutor pool = (ThreadPoolExecutor) Executors.newFixedThreadPool(3);
-
 		RSSThread thread1 = new RSSThread("http://ep00.epimg.net/rss/tags/ultimas_noticias.xml");
 		RSSThread thread2 = new RSSThread("https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/tecnologia/portada");
 		RSSThread thread3 = new RSSThread("https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/ciencia/portada");
@@ -36,6 +35,13 @@ public class Main {
 		pool.execute(thread2);
 		pool.execute(thread3);
 		pool.shutdown();
+		while(pool.getActiveCount() != 0) {
+			try {
+				Thread.sleep(1);
+			}catch (InterruptedException ex) {
+				ex.printStackTrace();
+			}
+		}
 		System.out.println("Timings:\n" +
 				"thread 1: "+ thread1.getTime() + "\n" +
 				"thread 2: "+ thread2.getTime() + "\n" +
