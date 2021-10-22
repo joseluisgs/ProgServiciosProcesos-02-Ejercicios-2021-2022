@@ -9,6 +9,8 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.IOException;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 
 public class RSSController {
@@ -44,14 +46,14 @@ public class RSSController {
 			RSSItem item = new RSSItem();
 			for (Node node = this.xmlFile.getElementsByTagName("item").item(i).getFirstChild();
 			     node != null; node = node.getNextSibling()) {
-				if (node.getNodeName().equals("title")) {
+				if (node.getNodeName().equals("title"))
 					item.setTitle(node.getTextContent());
-				}
-				else if (node.getNodeName().equals("link")) {
+				else if (node.getNodeName().equals("link"))
 					item.setLink(node.getTextContent());
-				}else if (node.getNodeName().equals("description")) {
+				else if (node.getNodeName().equals("description"))
 					item.setDescription(node.getTextContent());
-				}
+				else if (node.getNodeName().equals("pubDate"))
+					item.setPubDate(LocalDate.parse(node.getTextContent(), DateTimeFormatter.RFC_1123_DATE_TIME));
 			}
 			collection.add(item);
 		}
