@@ -49,6 +49,21 @@ Una vez terminen los tres, irás mostrando su resultado por pantalla. Es importa
 
 Entrega 21/10/2021
 
+### Cajas Productor Consumidor.
+Vamos a realizar un simulacro de nuestras cajas de supermercado con la filosofía del productor consumidor.
+Tendremos dos Productores de Clientes que producirán Clientes en tiempos aleatorios entre 500 y 1000ms de forma aleatoria. Los asignarán a la cola, siempre que haya espacio disponible. 
+Tendremos 3 cajeras/os que procesan los clientes. El tiempo del procesamiento de cada cliente viene dado al procesar su carro y procesar la pila de productos que tienen entre 1 y 10, de forma aleatoria. Cada producto tiene un tiempo entre 100 y 500ms de forma aleatoria.
+Nuestra cola de clientes, tiene un tamaño máximo de 10. No se puede producir más, si está llena ni consumir de ella cuando esté vacía.
+Cada productor producirá 15 clientes cada uno de ellos.
+El programa terminará cuando se haya procesado todos los carros. Se debe mostrar cuantos carros ha procesado cada cajera.
+
+Una vez te funcione, intenta generalizar el programa para que funcione con N Productores, M Cajeras/as, Cola de Tamaño J, Carros con Pila de Tamaño T.
+
+Usa Workers en donde creas que es posible
+
+
+Entrega 02/11/2021
+
 
 ## Autor
 
